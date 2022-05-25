@@ -1,0 +1,453 @@
+
+/* .header{
+height: 600px;
+} */
+.header-img{
+    height: 600px;
+}
+.logo-header{
+    display: flex;
+}
+.logo-img{
+    border: 0.5px dashed #BEBEBE;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    padding: 10px;
+}
+.logo-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: -0.03em;
+color: #FFFFFF;
+flex: none;
+order: 1;
+flex-grow: 0;
+padding: 5px 10px;
+}
+.menu{
+    padding: 15px;
+}
+.nav-item{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+padding: 10px 30px;
+display: block;
+text-decoration: none;
+}
+
+
+.sign-up{
+padding: 14px 15px;
+width: 80px;
+height: 38px;
+background: #FFFFFF;
+border-radius: 10px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 11px;
+color: #3E86F5;
+}
+
+.header-info-p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 155%;
+text-align: center;
+letter-spacing: -0.01em;
+color: #FFFFFF;
+margin-top: 20px;
+}
+.header-info-h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 130%;
+letter-spacing: -0.03em;
+text-transform: capitalize;
+color: #FFFFFF;
+text-align: center;
+margin-top: 100px;
+}
+
+.section-2{
+    /* height: 500px; */
+    background: #F8F9FC;      
+    font-family: 'Poppins';
+    margin-bottom: none;
+}
+.section-2-one{
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 135%;
+text-align: center;
+letter-spacing: -0.02em;
+color: #000000;
+padding-top: 98px;
+}
+.section-2-two{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 38px;
+}
+.section-2-three{
+    font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 60px;
+text-align: center;
+letter-spacing: -0.02em;
+color: #000000;
+padding-top: 70px;
+padding-bottom: 30px;
+}
+
+
+.section-3-text{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: lightslategray;
+    z-index: 10;
+    margin-left: 80px;
+    margin-top: 430px;
+}
+.section-3{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
+    position: relative;
+}
+.section-3-img > img{
+    width: 100%;
+    height: 500px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
+position: relative;
+}
+.location-icon{
+    display: inline;
+    color: #3E86F5;
+}
+.location{
+    display: inline;
+}
+.book-trip{
+    background: #FFFFFF;
+    box-shadow: 0px 134px 193px rgba(183, 183, 183, 0.07), 0px 16.7789px 24.1666px rgba(183, 183, 183, 0.035);
+    border-radius: 12px;
+    padding-top: 10px;
+   left: 50px;
+}
+.book-trip-text{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.08em;
+color: #929191;
+}
+.book-trip-select{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.08em;
+color: black;
+}
+.person-icon{
+    color: #00C07B;
+}
+.calendar-icon{
+    color: #CC0024;
+}
+.book-trip-button{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+color: #FFFFFF;
+width: 132px;
+height: 40px;
+background: #3E86F5;
+border-radius: 10px;
+}
+.book-img{
+    display: inline-block;
+}
+
+
+
+/*Section Four*/
+.section-4-text{
+    font-family: 'Poppins';
+font-style: normal;
+width: 300px;
+font-weight: 600;
+font-size: 38px;
+line-height: 135%;
+letter-spacing: -0.02em;
+color: #000000;
+}
+/* 
+.section-5 > img{
+height: 500px;
+} */
+.section-5{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    position: relative;
+}
+.passes-text{
+    position: absolute;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+.button-passes{
+    width: 150px;
+    height: 40px;    
+    background: #3E86F5;
+    border-radius: 10px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+
+}
+
+/*Section Six*/
+
+.section-6-icon{
+    color: #3E86F5;
+    background: #FFFFFF;
+border: 0.3px solid #C1C0C0;
+font-size: 20px;
+height: 40px;
+width: 40px;
+border-radius: 100%;
+text-align: center;
+display:inline-block;
+padding: 10px;
+margin-right: 10px;
+margin-top: 25px;
+}
+.logo{
+    border: 0.5px dashed #BEBEBE;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.section-6-title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: -0.02em;
+color: #000000;
+}
+.section-6-info{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 170%;
+color: rgba(0, 0, 0, 0.7);
+}
+.head{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.12em;
+color: #3E86F5;
+}
+.footer-info{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.02em;
+color: #031530;
+}
+.footer-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 209%;
+color: rgba(0, 0, 0, 0.5);
+display: inline;
+}
+
+/* Navbar */
+.topnav {
+    overflow: hidden;
+    background: transparent;
+    padding-top: 10px;
+  }
+  .topnav-element a{
+      text-decoration: none;
+  }
+  .icon{
+      color: white;
+      background-color: #333;
+      margin: 10px 10px;
+      width: 30px;
+      height: 30px;
+  }
+  
+  .topnav-element, .topnav button {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: none;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    /* When screen is less than 600px, hide all items except the first one */
+    /* .topnav-element:not(:first-child)  {
+      display: none;
+    } */
+    .topnav-element a{
+        display: block;
+    }
+
+    .topnav-element{
+      display: block;
+    }
+  
+    .icon {
+        float: right;
+      display: block;
+
+    }
+
+
+  
+  
+  }
+  
+    /*On screens above 600px remove sign-in and navigation bar  */
+  @media screen and (max-width: 640px){
+    .navigation{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .book-trip{
+        width: 50% !important;
+        margin-top: -180px;
+    }
+   
+}
+
+
+ /* Overlay */
+  
+  .close-modal {
+    position: absolute;
+    bottom: 1.2rem;
+    left: 50%;
+    font-size: 17px;
+    color:  #FFFFFF;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  .hidden {
+    display: none;
+  }
+  
+  .menubar {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: inherit;
+    padding: 6rem;
+    border: solid red medium;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+  }
+  
+
+  /* BookNow Component */
+  .book-now{
+    position: absolute;
+    top: 450px;
+  }
+  .book-now-button{
+    background: #3E86F5;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;color: #FFFFFF;
+  }
+
+  .book-now-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .book-now-location{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .book-now-img{
+      position: relative;
+  }
