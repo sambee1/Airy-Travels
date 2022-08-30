@@ -125,21 +125,25 @@ padding-bottom: 30px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
     color: lightslategray;
     z-index: 10;
     margin-left: 80px;
     margin-top: 430px;
+
 }
 .section-3{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
     position: relative;
+
 }
 .section-3-img > img{
     width: 100%;
     height: 500px;
 background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
 position: relative;
+
+
 }
 .location-icon{
     display: inline;
@@ -325,20 +329,17 @@ display: inline;
   
   .topnav-element, .topnav button {
     display: block;
-    text-align: center;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     border: none;
+    width: 250px;
   }
   
   
   @media screen and (max-width: 600px) {
-    /* When screen is less than 600px, hide all items except the first one */
-    /* .topnav-element:not(:first-child)  {
-      display: none;
-    } */
-    .topnav-element a{
+      .topnav-element a{
         display: block;
     }
 
@@ -351,12 +352,15 @@ display: inline;
       display: block;
 
     }
-
-
+    .book-now{
+        position: absolute;
+        top: 300px;
+    }
   
   
   }
-  
+ 
+
     /*On screens above 600px remove sign-in and navigation bar  */
   @media screen and (max-width: 640px){
     .navigation{
@@ -372,13 +376,24 @@ display: inline;
    
 }
 
+@media screen and (max-width: 950px) and (min-width: 650px) {
+    .section-3-img > img {
+        height: 300px;
+    }
+    .section-3-text{
+        font-size: 18px;
+        margin-top: 250px;
+        margin-left: 30px;
+}
+}
+
 
  /* Overlay */
   
   .close-modal {
     position: absolute;
     bottom: 1.2rem;
-    left: 50%;
+    left: 45%;
     font-size: 17px;
     color:  #FFFFFF;
     cursor: pointer;
@@ -397,7 +412,6 @@ display: inline;
     width: 100%;
     background-color: inherit;
     padding: 6rem;
-    border: solid red medium;
     border-radius: 5px;
     box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
     z-index: 10;
@@ -418,7 +432,7 @@ display: inline;
   /* BookNow Component */
   .book-now{
     position: absolute;
-    top: 450px;
+    top: 400px;
   }
   .book-now-button{
     background: #3E86F5;
@@ -450,4 +464,63 @@ line-height: 24px;color: #FFFFFF;
   }
   .book-now-img{
       position: relative;
+      /* height: 600px; */
   }
+  .book-now-img > img{
+      height: 600px;
+  }
+
+  /* Login Page */
+  .login{
+      width: 400px;
+      border: medium solid black;
+
+  }
+
+  /* Signup Page */
+  .signup{
+width: 700px !important;
+height: 400px;
+margin-top: 50px;
+background-color: #FFFFFF;
+backdrop-filter: blur(9px) saturate(161%);
+-webkit-backdrop-filter:blur(9px) saturate(161%);
+border-radius: 12px;
+border: solid 10px rgba(209, 213, 219, 0.3)
+  }
+  .login-submit{
+      color: #FFFFFF;
+      border-radius: 5px;
+      background-color:#3E86F5;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+  }
+ .create-account{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+ }
+ .signup-logo-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: -0.03em;
+color: #3E86F5;
+flex: none;
+order: 1;
+flex-grow: 0;
+padding: 5px 10px;
+}
+@media screen and (max-width: 768px){
+    .signup{
+        width: 350px !important;
+        height: 400px;
+        margin-top: 30px;
+    }
+}
