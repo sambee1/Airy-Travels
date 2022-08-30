@@ -10,6 +10,7 @@ import Property from '../Images/Property.jpg'
 import Snow from '../Images/picture.jpg'
 import * as Icon from 'react-bootstrap-icons';
 import BookNow from '../BookNow'
+import './style.css'
 
 function body() {
   return (
@@ -49,21 +50,21 @@ function body() {
                     title='Palm Beach'
                     location='Barbados'
                     />
-                    <img src={Palm} alt = 'resort'/>
+                    <img src={Palm} alt = 'resort' />
                 </div>
                 <div className='mb-3 book-now-img'>
                     <BookNow
                     title='Winter landscape Chalet'
                     location='Cambodia'
                     />
-                    <img src={Property} alt = 'resort'/>
+                    <img src={Property} alt = 'resort' />
                 </div>
                 <div className='mb-3 book-now-img'>
                 <BookNow
                     title='Sea Resort'
                     location='Miami'
                     />
-                    <img src={resort} alt = 'resort'/>
+                    <img src={resort} alt = 'resort' />
                 </div>
                 <div className='mb-3 book-now-img'>
                 <BookNow
@@ -78,7 +79,7 @@ function body() {
         <section className='section-5 '>
             <img src={passes} alt='passes' className='w-full'/>
             
-            <div className='passes-text md:text-4xl text-3xl top-10 left-10 md:top-28 md:left-28 w-80 md:w-96' >
+            <div className='passes-text md:text-4xl text-2xl top-8 left-8 md:top-28 md:left-28 w-80 md:w-96' >
                 <p>
                 View Passes We've Made Available For You
                 </p>

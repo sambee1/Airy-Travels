@@ -1,6 +1,5 @@
 import React from 'react'
 import './style.css'
-import '../Bootstrap/bootstrap.css'
 import Book from './Book';
 import Header from '../Images/headerimg.jpg'
 import Nike from '../Images/Group.png'
@@ -10,8 +9,7 @@ import Master from '../Images/mastercard-2-logo.png'
 import Apple from '../Images/apple-pay-logo.png'
 import Body from './body';
 import Logo from '../Images/Vector.png'
-import * as Icon from 'react-bootstrap-icons';
-
+import {Link} from 'react-router-dom'
 
 function Home() {
     const styles = {
@@ -31,8 +29,26 @@ function handleClicks(){
     document.querySelector('.menubar').classList.add('hidden');
     document.querySelector('.overlay').classList.add('hidden');
  }
+ let fname
+
+// const [signed, setSigned] = React.useState(false)
+ 
+function getSessionName(){
+    const data = JSON.parse(sessionStorage.getItem('form'))
+    if(!data) return
+    if(data){
+    
+        fname = data.firstName
+    // let first = fname.slice(0,1).toUpperCase() + data.slice(1)
+    return `Welcome ${fname}`
+}
 
 
+
+  
+}
+
+getSessionName()
     return (
     <div>
 
@@ -59,10 +75,13 @@ function handleClicks(){
                     <div className='topnav-element'>
                         <a href={'#about'} className='nav-item'>About Us</a>
                         <a href={'#support'} className='nav-item'>Support</a>
+                        
                         <a href={'#FAQ'} className='nav-item'>FAQ</a>
                     </div>
                     <div className='topnav-element'>
-                        <div className='sign-up ml-12'>Sign In</div>
+                    <Link to='/signup'>
+                        <button className='sign-up ml-7'>Sign In</button>
+                    </Link>
                     </div>
                         
 
@@ -89,7 +108,9 @@ function handleClicks(){
                         <a href={'#FAQ'} className='nav-item'>FAQ</a>
                     </div>
                     <div className='sm:w-1/5 '>
-                        <div className='sign-up'>Sign In</div>
+                    <Link to='/signup'>
+                        <button className='sign-up' >Sign In</button> 
+                    </Link>
                     </div>
 
 
@@ -97,6 +118,8 @@ function handleClicks(){
                 </div>
  
                 <div className='header-info'>
+                                <p className='header-info-p'>
+                                    {getSessionName()}</p>
                                 <h3 className='header-info-h3'>Plan The Perfect Winter Trip</h3>
                                 <p className='header-info-p '>Easily plan your ideal ski trip from home with the help of professionals</p>
                 </div>
